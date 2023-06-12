@@ -1,0 +1,15 @@
+body{
+    background-color: bisque;
+    /* text-align: center; */
+}
+
+
+button:hover{
+    background-color:cadetblue;
+    color: blueviolet;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}

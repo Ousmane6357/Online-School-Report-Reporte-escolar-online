@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/ReporteEscolar.css">
+</head>
+<body onload="listaNotas()">
+    <h1>Bienvenido a la escuela</h1>
+    <div class="logo">
+        <img src="" alt="">
+    </div>
+
+    <div class="estudiante">
+        <h3>Alumno: Ousmane Dagnogo</h3>
+    </div>
+
+    <h4>Notas:</h4>
+    <ul id="listaNotas"></ul>
+
+    <div class="info">
+        <h4>Promedio: <span id="promedio"></span></h4>
+        <button onclick="calcularPromedio()">Calcular promedio</button>
+
+        <h4>Nota más alta: <span id="nota"></span></h4>
+        <button onclick="notaMasAlta()">Calcular nota más alta</button>
+
+        <h4>Aplazo: <span id="aplazo"></span></h4>
+        <button onclick="hayAplazo()">Verificar aplazo</button>
+    </div>
+
+    <script src="../js/ReporteEscolar.js"></script>
+</body>
+</html>
